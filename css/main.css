@@ -341,7 +341,7 @@ li {
 .footer-text {
   font-size: 2rem;
   font-weight: bold;
-  color: #000000;
+  color: #000;
 }
 
 .footer-form {
@@ -358,11 +358,15 @@ li {
   background-color: #ff6b00;
   border-style: none;
   border-radius: 1px;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.2rem;
 }
 
-.firstname, .lastname, .email, .comment, .btn {
+.firstname,
+.lastname,
+.email,
+.comment,
+.btn {
   margin: 0.2rem;
   padding: 0.6rem;
 }
