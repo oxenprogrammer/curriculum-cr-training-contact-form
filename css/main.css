@@ -360,6 +360,7 @@ li {
   border-radius: 1px;
   color: #fff;
   font-size: 1.2rem;
+  width: max-content;
 }
 
 .firstname,
@@ -380,3 +381,18 @@ li {
 .section-footer_bottom a {
   padding: 0.6rem;
 }
+
+@media all and (max-width: 480px) { 
+  .section-footer_top {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin: 0.5rem auto;
+  }
+
+  .footer-text {
+    margin: 2rem 0.5rem;
+  }
+}
+
