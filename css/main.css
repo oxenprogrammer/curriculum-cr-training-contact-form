@@ -382,7 +382,8 @@ li {
   padding: 0.6rem;
 }
 
-@media all and (max-width: 480px) { 
+@media all and (max-width: 480px)
+{ 
   .section-footer_top {
     flex-direction: column;
   }
@@ -395,4 +396,3 @@ li {
     margin: 2rem 0.5rem;
   }
 }
-
