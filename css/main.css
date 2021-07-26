@@ -325,3 +325,73 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.section-footer_top {
+  display: inherit;
+  padding: 1rem;
+}
+
+.footer-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.footer-form {
+  display: inherit;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-form input {
+  height: 3rem;
+}
+
+.btn {
+  background-color: #ff6b00;
+  border-style: none;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 1.2rem;
+  width: max-content;
+}
+
+.firstname,
+.lastname,
+.email,
+.comment,
+.btn {
+  margin: 0.2rem;
+  padding: 0.6rem;
+}
+
+.section-footer_bottom {
+  display: inherit;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.section-footer_bottom a {
+  padding: 0.6rem;
+}
+
+@media all and (max-width: 480px) {
+  .section-footer_top {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin: 0.5rem auto;
+  }
+
+  .footer-text {
+    margin: 2rem 0.5rem;
+  }
+}
